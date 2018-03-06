@@ -8,6 +8,10 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "files": [
+      "ng-intro/ng-introjs.service.ts",
+      "ng-intro/ng-introjs.directive.ts"
+    ],
     "lib": [
       "es2016",
       "dom"
