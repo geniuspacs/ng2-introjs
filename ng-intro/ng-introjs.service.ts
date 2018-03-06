@@ -10,7 +10,7 @@ export interface IIntrojsService{
   	intro: IntroJs.IntroJs,
 		addListener(name: introStatus, callback :Function) :void
 		removeListener(name: introStatus): void
-		setOptions: IntroJs.Options,
+		setOptions(options:IntroJs.Options): IntroJs,
 		start(stepId?: number): IntroJs.IntroJs,
 		exit(): IntroJs.IntroJs,
 		clear(callback: Function): IntroJs.IntroJs,
